@@ -88,84 +88,81 @@ public class BankWithdraw {
 					}
 					
 					
-				}else if (num2==2) {
-						System.out.println("PLEASE CHOOSE THE WITHDRAWL AMOUNT:");
-						System.out.println("1-RM50" + "\n2-RM100" + "\n3-RM500" + "\n4-RM1000" + "\nOTHER AMOUNTS");
-						num3= sc.nextInt();
+		}else if (num2==2) {
+				System.out.println("PLEASE CHOOSE THE WITHDRAWL AMOUNT:");
+				System.out.println("1-RM50" + "\n2-RM100" + "\n3-RM500" + "\n4-RM1000" + "\nOTHER AMOUNTS");
+					num3= sc.nextInt();
 								
-						if(num3==1) {
-							System.out.println("WITHDRAW RM50?");
-							System.out.println("CONFIRM TRANSACTION Y/N");
-							ans = sc.next().charAt(0);
+				if(num3==1) {
+					System.out.println("WITHDRAW RM50?");
+					System.out.println("CONFIRM TRANSACTION Y/N");
+					ans = sc.next().charAt(0);
 									
-							if(ans=='Y')
-								System.out.println("TRANSACTION SUCCESS");
+					if(ans=='Y')
+						System.out.println("TRANSACTION SUCCESS");
 									
-							else if (ans=='N')
-								System.out.println("TRANSACTION FAILED");
+					else if (ans=='N')
+						System.out.println("TRANSACTION FAILED");
 									
-							System.exit(0);
-							}
-						else if(num3==2) {
-							System.out.println("WITHDRAW RM100?");
-							System.out.println("CONFIRM TRANSACTION Y/N");
-							ans = sc.next().charAt(0);
+					System.exit(0);
+					}
+				else if(num3==2) {
+					System.out.println("WITHDRAW RM100?");
+					System.out.println("CONFIRM TRANSACTION Y/N");
+					ans = sc.next().charAt(0);
 										
-							if(ans=='Y')
-								System.out.println("TRANSACTION SUCCESS");
+					if(ans=='Y')
+						System.out.println("TRANSACTION SUCCESS");
 										
-							else if (ans=='N')
-								System.out.println("TRANSACTION FAILED");
+					else if (ans=='N')
+						System.out.println("TRANSACTION FAILED");
 									
-							System.exit(0);
-							}	
-						else if(num3==3) {
-							System.out.println("WITHDRAW RM500?");
-							System.out.println("CONFIRM TRANSACTION Y/N");
-							ans = sc.next().charAt(0);
+					System.exit(0);
+					}	
+				else if(num3==3) {
+					System.out.println("WITHDRAW RM500?");
+					System.out.println("CONFIRM TRANSACTION Y/N");
+					ans = sc.next().charAt(0);
 										
-							if(ans=='Y')
-								System.out.println("TRANSACTION SUCCESS");
+					if(ans=='Y')
+						System.out.println("TRANSACTION SUCCESS");
 											
-							else if (ans=='N')
-								System.out.println("TRANSACTION FAILED");
+					else if (ans=='N')
+						System.out.println("TRANSACTION FAILED");
 										
-							System.exit(0);
-							}
-						else if(num3==4) {
-							System.out.println("WITHDRAW RM1000?");
-							System.out.println("CONFIRM TRANSACTION Y/N");
-							ans = sc.next().charAt(0);
+					System.exit(0);
+					}
+				else if(num3==4) {
+					System.out.println("WITHDRAW RM1000?");
+					System.out.println("CONFIRM TRANSACTION Y/N");
+					ans = sc.next().charAt(0);
 											
-							if(ans=='Y')
-								System.out.println("TRANSACTION SUCCESS");
+					if(ans=='Y')
+						System.out.println("TRANSACTION SUCCESS");
 											
-							else if (ans=='N')
-								System.out.println("TRANSACTION FAILED");
+					else if (ans=='N')
+						System.out.println("TRANSACTION FAILED");
 										
-							System.exit(0);	
-							}	
-						else if(num3==5) {
-							System.out.println("PLEASE ENTER WITHDRAWAL AMOUNT");
-							amn1=sc.nextInt();
+					System.exit(0);	
+					}	
+				else if(num3==5) {
+					System.out.println("PLEASE ENTER WITHDRAWAL AMOUNT");
+					amn1=sc.nextInt();
 									
-							System.out.println("WITHDRAW RM" +amn1+ "?");
-							System.out.println("CONFIRM TRANSACTION Y/N");
-							ans = sc.next().charAt(0);
+					System.out.println("WITHDRAW RM" +amn1+ "?");
+					System.out.println("CONFIRM TRANSACTION Y/N");
+					ans = sc.next().charAt(0);
 											
-							if(ans=='Y')
-								System.out.println("TRANSACTION SUCCESS");
+					if(ans=='Y')
+						System.out.println("TRANSACTION SUCCESS");
 										
-							else if (ans=='N')
-								System.out.println("TRANSACTION FAILED");
+					else if (ans=='N')
+						System.out.println("TRANSACTION FAILED");
 										
-							System.exit(0);
-							}
-						}
-						
-				
-		
-				
+					System.exit(0);
+				}
+			}
+			
 		}
 	}
 
